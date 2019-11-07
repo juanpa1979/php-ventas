@@ -45,3 +45,8 @@ That's it! Now go build something cool.
 2. cd php-ventas
 3. code .
 4. composer start
+
+## Materiales
+1. Bootstrap -> https://getbootstrap.com/docs/4.3/components/alerts/
+2. Bootstrap Video -> https://www.youtube.com/watch?v=7s1RjItUBqU&list=PLL0TiOXBeDagsYUYFO9WMwDtuDuoGZVB9
+3. Git -> https://www.youtube.com/watch?v=zH3I1DZNovk&list=PLY5pCJQeEfJ9EZbp08YOhuVzz8mlbEKB4
