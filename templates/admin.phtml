@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ventas</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/admin.css">
+
+</head>
+
+<body>
+
+    <form class="form-admin">
+        <img src="img/logo.png" class="img-fluid" alt="logo">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">@</span>
+            </div>
+            <input type="text" id="usuario_usuario" name="usuario_usuario" class="form-control" placeholder="Usuario" aria-label="Username"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">@</span>
+            </div>
+            <input type="password" id="clave_usuario" name="clave_usuario" class="form-control" placeholder="Contraseña" aria-label="Username"
+                aria-describedby="basic-addon1">
+        </div>
+
+        <div class="btn-group d-flex" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary" onclick="ingresar()">Ingresar</button>
+            <button type="button" class="btn btn-danger" onclick="salir_admin()">Salir</button>
+        </div>
+    </form>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+
+</html>
